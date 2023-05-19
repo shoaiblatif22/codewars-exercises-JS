@@ -1,3 +1,4 @@
+# Q1 #
 function sameCase(a, b){
     if (a.toUpperCase() === b.toLowerCase() || a.toLowerCase() === b.toUpperCase()){
         return -1
@@ -7,4 +8,9 @@ function sameCase(a, b){
         return 0
     }
     
+}
+
+# Q2 #
+function joinStrings(string1, string2) {
+    return '${string1} ${string2}'
 }
