@@ -14,3 +14,11 @@ function sameCase(a, b){
 function joinStrings(string1, string2) {
     return '${string1} ${string2}'
 }
+
+# Q3 #
+function squareSum(numbers) {
+    const squareSum = numbers.map(numbers => numbers ** 2)
+    const sum = squareSum.reduce((accumulator, currentValue) => accumulator, currentValue, 0)
+
+    return sum;
+}
