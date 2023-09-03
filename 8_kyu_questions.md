@@ -25,3 +25,8 @@ ES6 has introduced another way of joining strings. Your task is to find out what
 + , .concat() & .join() will not be allowed in this exercise. I have also removed some other methods that can be used to cheat!
 
 If one of the arguments is a number your code must coerce it into being a string.
+
+## Q3 ##
+Complete the square sum function so that it squares each number passed into it and then sums the results together.
+
+For example, for [1, 2, 2] it should return 9 
