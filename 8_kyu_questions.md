@@ -33,3 +33,14 @@ For example, for [1, 2, 2] it should return 9
 
 ## Q4 ##
 Write a function that takes an array of words and smashes them together into a sentence and returns the sentence. You can ignore any need to sanitize words or add punctuation, but you should add spaces between each word. 
+
+## Q5 ## 
+In this kata, your job is to return the two distinct highest values in a list. If there're less than 2 unique values, return as many of them, as possible.
+
+The result should also be ordered from highest to lowest.
+
+Examples:
+
+[4, 10, 10, 9]  =>  [10, 9]
+[1, 1, 1]  =>  [1]
+[]  =>  []
