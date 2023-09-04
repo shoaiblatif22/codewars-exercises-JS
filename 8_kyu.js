@@ -40,3 +40,12 @@ function twoHighestet(arr) {
     return sortedValues.slice(0, 2)
 }
 
+# Q6 #
+function chromosomeCheck(sperm) {
+  if (sperm === 'XX') {
+    return "Congratulations! You're going to have a daughter."
+  } else {
+    return "Congratulations! You're going to have a son."
+  }
+}
+
