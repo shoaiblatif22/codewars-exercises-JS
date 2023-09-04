@@ -32,3 +32,11 @@ function smash(words) {
     }
 };
 
+# Q5 #
+function twoHighestet(arr) {
+    const uniqueValues = new Set(arr);
+    const sortedValues = Array.from(uniqueValues).sort((a, b) => b - a);
+
+    return sortedValues.slice(0, 2)
+}
+
