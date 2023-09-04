@@ -22,3 +22,13 @@ function squareSum(numbers) {
 
     return sum;
 }
+
+# Q4 #
+function smash(words) {
+    if (words.length === 0) {
+        return ""
+    } else {
+        return (words.join(" "))
+    }
+};
+
