@@ -49,3 +49,15 @@ function chromosomeCheck(sperm) {
   }
 }
 
+# Q7 #
+function repeatStr (n, s) {
+    var result = "";
+
+    while (n > 0) {
+        result += s;
+        n --;
+
+    }
+
+    return result;
+}
